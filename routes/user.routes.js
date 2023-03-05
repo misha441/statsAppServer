@@ -12,9 +12,6 @@ mongoose
     .then(res => console.log("Conected to mongodb"))
     .catch(err => console.log(err))
 
-let rawdata = fs.readFileSync('./databases/users.json');
-let users = JSON.parse(rawdata);
-
 // Post.find({}).count().then(res=> console.log(res))
 
 // users.forEach(el => {
