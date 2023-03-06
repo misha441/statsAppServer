@@ -4,10 +4,6 @@
     {
       "src": "app.js",
       "use": "@now/node"
-    },
-    {
-      "src": "package.json",
-      "use": "now-sapper"
     }
   ],
   "routes": [
