@@ -27,6 +27,7 @@
     "config": "^3.3.6",
     "express": "^4.17.2",
     "mongoose": "^7.0.1",
+    "now-sapper": "^0.39.2",
     "sqlite3": "^5.0.2",
     "wire-protocol": "^2.1.0"
   },
