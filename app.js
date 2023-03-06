@@ -3,6 +3,12 @@ const config = require("config")
 const path = require("path")
 const corsMiddleware = require("./middleware/cors.middleware")
 
+const {Router} = require("express")
+const router = Router()
+const sqlite3 = require('sqlite3').verbose()
+const fs = require("fs")
+
+
 const app = express()
 
 app.use(corsMiddleware)
