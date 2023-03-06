@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "server": "nodemon app.js",
+    "build": "react-scripts build",
     "client": "npm run startDev --prefix client",
     "client:install": "npm run install --prefix client",
     "client:build": "npm run build --prefix client",
@@ -20,10 +21,9 @@
   "author": "Mykhailo Debelyak <mihadebelyak@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "config": "^3.3.9",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.1",
-    "sqlite3": "^5.1.4"
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "concurrently": "^6.5.1",
