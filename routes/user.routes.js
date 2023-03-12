@@ -5,8 +5,8 @@ const fs = require("fs")
 const mongoose = require("mongoose")
 const Post = require(".././models/post")
 
-const db = "mongodb+srv://mihadebelyak:20OimFG9cKO7NI7C@cluster0.ycip03x.mongodb.net/statsapp?retryWrites=true&w=majority"
-
+const db = "mongodb+srv://vercel-admin-user:tnjPggvG1ag74wPM@cluster0.ycip03x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+// "mongodb+srv://mihadebelyak:20OimFG9cKO7NI7C@cluster0.ycip03x.mongodb.net/statsapp?retryWrites=true&w=majority"
 mongoose
     .connect(db, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(res => console.log("Conected to mongodb"))

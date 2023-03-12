@@ -24,7 +24,8 @@
     "config": "^3.3.6",
     "express": "^4.17.2",
     "mongoose": "^7.0.1",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.0.2",
+    "vercel": "^28.16.15"
   },
   "devDependencies": {
     "concurrently": "^6.5.1",
