@@ -2,7 +2,7 @@ const express = require("express")
 const config = require("config")
 const path = require("path")
 const corsMiddleware = require("./middleware/cors.middleware")
-const mongoose = require("mongoose")
+
 
 const app = express()
 
