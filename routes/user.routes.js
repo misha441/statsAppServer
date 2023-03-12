@@ -2,11 +2,11 @@ const {Router} = require("express")
 const router = Router()
 const sqlite3 = require('sqlite3').verbose()
 const fs = require("fs")
-// const mongoose = require("mongoose")
+const mongoose = require("mongoose")
 // const Post = require(".././models/post")
 //
 // const db = "mongodb+srv://mihadebelyak:20OimFG9cKO7NI7C@cluster0.ycip03x.mongodb.net/statsapp?retryWrites=true&w=majority"
-//
+
 // mongoose
 //     .connect(db, {useNewUrlParser: true, useUnifiedTopology: true})
 //     .then(res => console.log("Conected to mongodb"))
