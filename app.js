@@ -5,6 +5,8 @@ const corsMiddleware = require("./middleware/cors.middleware")
 
 const app = express()
 
+
+
 app.use(corsMiddleware)
 app.use('/api/user', require('./routes/user.routes'))
 
@@ -16,6 +18,6 @@ app.use('/api/user', require('./routes/user.routes'))
 //     })
 // }
 
-//const PORT = process.env.PORT || config.get("port")
+const PORT = process.env.PORT || config.get("port")
 
-app.listen(5000, () => {console.log('Server has been started...')})
+app.listen(PORT, () => {console.log('Server has been started...')})
