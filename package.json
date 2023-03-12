@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "site with users and their statistics",
   "main": "app.js",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "server": "nodemon app.js",
     "build": "react-scripts build",
     "client": "npm run startDev --prefix client",
