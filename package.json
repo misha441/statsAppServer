@@ -5,9 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "server": "nodemon app.js",
-    "build": "react-scripts build",
     "client": "npm run startDev --prefix client",
     "client:install": "npm run install --prefix client",
     "client:build": "npm run build --prefix client",
